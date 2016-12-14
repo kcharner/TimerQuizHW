@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Meddon|Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<header id="header">
+		<h1>Early American Literature Trivia</h1>
+	</header>
+	<div class="jumbotron">
+  		<div class="container">
+  			<h2>Let's play some trivia!</h2>
+  			<p>Click the button below to get started . . .</p>
+    		<button id="startBtn">START</button>
+  		</div>
+	</div>
+	<div id="timer"></div>
+	<section>
+		<form id="gameQuestions">
+			<ol>
+				<li>Hester Prynne is the female protagonist of what classic 19th century novel set in New England?</li>
+					<input class="answerOption" id="a" type="radio" name="book" value="The Scarlet Letter">The Scarlet Letter</input>
+					<input class="answerOption" id="b" type="radio" name="book" value="The Crucible">The Crucible</input>
+					<input class="answerOption" id="c" type="radio" name="book" value="The House of the Seven Gables">The House of the Seven Gables</input>
+
+				<li>Which novel was written by James Fenimore Cooper as the second book of his Leatherstocking Tales series?</li>
+					<input class="answerOption" id="d" type="radio" name="book2" value="Tales of a Traveller">Tales of a Traveller</input>
+					<input class="answerOption" id="e" type="radio" name="book2" value="The Pathfinder">The Pathfinder</input>
+					<input class="answerOption" id="f" type="radio" name="book2" value="The Last of the Mohicans">The Last of the Mohicans</input>
+
+				<li>Walden Pond is the setting for which author's non-fiction account of simple living in the woods?</li>
+					<input class="answerOption" id="g" type="radio" name="author" value="Henry David Thoreau">Henry David Thoreau</input>
+					<input class="answerOption" id="h" type="radio" name="author" value="Washington Irving">Washington Irving</input>
+					<input class="answerOption" id="i" type="radio" name="author" value="John Muir">John Muir</input>
+
+				<li>The Legend of Sleepy Hollow was published as part of which collection of short stories and essays?</li>
+					<input class="answerOption" id="j" type="radio" name="collection" value="The Piazza Tales">The Piazza Tales</input>
+					<input class="answerOption" id="k" type="radio" name="collection" value="The Sketch Book of Geoffrey Crayon, Gent.">The Sketch Book of Geoffrey Crayon, Gent.</input>
+					<input class="answerOption" id="l" type="radio" name="collection" value="The Legend of Sleepy Hollow">The Legend of Sleepy Hollow</input>
+
+				<li>"Call me Ishmael" is the opening line of which great whaling novel?</li>
+					<input class="answerOption" id="m" type="radio" name="quote" value="Typee">Typee</input>
+					<input class="answerOption" id="n" type="radio" name="quote" value="In the Heart of the Sea">In the Heart of the Sea</input>
+					<input class="answerOption" id="o" type="radio" name="quote" value="Moby Dick">Moby Dick</input>
+			</ol>
+			<button id="submit">Submit</button>
+		</form>
+	</section>
+	<section id="footer">
+		<h5>Copywrite 2016 KAC</h5>
+	</section>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+	color: white;
+	text-align: center;
+	background-color: #3E2723;
+}
+
+#header {
+	color: white;
+	background-color: #EBCFC4;
+	padding: 10px;
+	margin-top: 0px;
+	text-align: center;
+	font-family: Meddon;
+	font-size: 20px;
+	border-bottom: 3px solid #E9CCB1;
+}
+
+.jumbotron {
+	padding-top: 25px;
+	margin-top: 15px;
+	margin-left: 100px;
+	background-image: url("georgeIness.jpg");
+	height: 725px;
+	width: 1225px;
+	color: white;
+	font-family: Raleway;
+	border: 2px solid #E9CCB1;
+}
+
+form {
+	color: black;
+	padding: 15px;
+	width: 800px;
+	display: none;
+	font-family: Raleway;
+	background-color: #F4EEE1;
+	margin-left: 325px;
+}
+
+button {
+	background-color: #E9CCB1;
+	color: black;
+}
+
+button:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	font-family: Dancing Script;
+	width: 100%;
+	color: black;
+}
+
+
+
+
+
+
